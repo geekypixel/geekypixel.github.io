@@ -1,0 +1,20 @@
+/**
+ * Site header
+ */
+.site-header {
+    position: relative;
+    border-bottom: 1px solid $grey-color-light;
+    padding: $spacing-unit;
+}
+
+.site-nav {
+
+    .page-link {
+        color: $main-color;
+
+        &:not(:first-child) {
+            margin-left: $spacing-unit;
+        }
+    }
+
+}

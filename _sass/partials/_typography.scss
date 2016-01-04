@@ -1,0 +1,31 @@
+p{
+  margin-bottom: $spacing-unit/2;
+}
+
+.center{
+  text-align: center;
+}
+
+.page-heading {
+    font-size: 1.325rem;
+}
+
+.post-title {
+    font-size: 2.2rem;
+}
+
+.post-content {
+    p{
+      font-size: 1.125rem;
+    }
+    h2 {
+        font-size: 1.625rem;
+    }
+    h3 {
+        font-size: 1.475rem;
+    }
+}
+
+.fa{
+    color: $second-color;
+}

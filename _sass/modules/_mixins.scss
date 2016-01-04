@@ -1,0 +1,77 @@
+
+/*Sass mixins*/
+
+@mixin animate($sec : .3s){
+    -webkit-transition: all $sec ease-in-out;
+    -moz-transition: all $sec ease-in-out;
+    -o-transition: all $sec ease-in-out;
+    -ms-transition: all $sec ease-in-out;
+    transition: all $sec ease-in-out;
+}
+
+@mixin scale($size){
+    -webkit-transform: scale($size);
+    -moz-transform: scale($size);
+    -o-transform: scale($size);
+    transform: scale($size);
+}
+
+@mixin translate($x,$y){
+    -webkit-transform: translate($x,$y);
+    -moz-transform: translate($x,$y);
+    -o-transform: translate($x,$y);
+    transform: translate($x,$y);
+}
+
+@mixin rotate($deg){
+    -webkit-transform:rotate($deg);
+    -moz-transform:rotate($deg);
+    -o-transition: rotate($deg);
+    transition: rotate($deg);
+}
+
+@mixin flex{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flexbox($type : row, $wrap : nowrap){
+  @include flex;
+  -webkit-flex-flow: $type $wrap;
+  -ms-flex-flow: $type $wrap;
+  flex-flow: $type $wrap;
+}
+
+@mixin flex-justify($align : center){
+  -webkit-justify-content: $align;
+  justify-content: $align;
+}
+
+@mixin flex-align($align : center){
+  -webkit-align-items: $align;
+  align-items: $align;
+}
+
+@mixin flex-content($align : center){
+  -webkit-content-items: $align;
+  align-content: $align;
+}
+
+@mixin flex-item($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  flex:  $values;
+}
+
+@mixin order($val) {
+  order: $val;
+}
+
+@mixin anime($name, $s, $kind){
+  -webkit-animation: $name $s $kind;
+  -moz-animation:    $name $s $kind;
+  -o-animation:      $name $s $kind;
+  animation:         $name $s $kind;
+}

@@ -1,0 +1,15 @@
+---
+title:  "Daily UI #2: CC Checkout"
+date:   2016-1-2 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+
+Create a credit card checkout <i class="fa fa-credit-card"></i>
+
+Note: This one had an ambiguous description so I made a form to
+add a credit card as a payment option.
+
+##<i class="fa fa-picture-o"></i> Result
+![Daily UI 2](http://i.imgur.com/3qopOSd.png)

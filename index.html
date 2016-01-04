@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="center">Daily UI Challenge</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-pencil"></i> {{ post.title }}</a>
+        </h2>
+        <p class="post-meta">{% if post.author %} <i class="fa fa-user"></i> {{ post.author }}{% endif %} | <i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
