@@ -1,0 +1,12 @@
+---
+title:  "Daily UI #3: Landing Page"
+date:   2016-1-4 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+
+Landing Page (above the fold)
+
+##<i class="fa fa-picture-o"></i> Result
+![Daily UI 3](http://i.imgur.com/fgAYG0E.png)

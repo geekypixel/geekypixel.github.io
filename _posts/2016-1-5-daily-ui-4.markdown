@@ -1,0 +1,13 @@
+---
+title:  "Daily UI #4: Calculator"
+date:   2016-1-4 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+Design a calculator
+
+##<i class="fa fa-picture-o"></i> Result
+
+<p data-height="649" data-theme-id="0" data-slug-hash="MKvqNe" data-default-tab="result" data-user="arturoalviar" class='codepen'>See the Pen <a href='http://codepen.io/arturoalviar/pen/MKvqNe/'>JavaScript Calculator</a> by Arturo (<a href='http://codepen.io/arturoalviar'>@arturoalviar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
