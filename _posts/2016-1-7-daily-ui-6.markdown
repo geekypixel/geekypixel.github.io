@@ -1,0 +1,11 @@
+---
+title:  "Daily UI #6: User Profile"
+date:   2016-1-7 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+Design a User Profile.
+
+##<i class="fa fa-picture-o"></i> Result
+![Daily UI 6](http://i.imgur.com/j8vqrZZ.png)
