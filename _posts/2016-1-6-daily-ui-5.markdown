@@ -1,0 +1,11 @@
+---
+title:  "Daily UI #5: App Icon"
+date:   2016-1-4 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+Design a app icon.
+
+##<i class="fa fa-picture-o"></i> Result
+![Daily UI 6](http://i.imgur.com/Lnmxeln.png)
