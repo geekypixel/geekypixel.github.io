@@ -1,0 +1,11 @@
+---
+title:  "Daily UI #9: Music Player"
+date:   2016-1-12 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+Design a Music Player.
+
+##<i class="fa fa-picture-o"></i> Result
+![Daily UI 9](http://i.imgur.com/wGZc5Tj.jpg)
