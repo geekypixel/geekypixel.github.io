@@ -1,0 +1,11 @@
+---
+title:  "Daily UI #11: Flash Message "
+date:   2016-1-14 13:21:00
+---
+
+##<i class="fa fa-pencil-square-o"></i> Task
+
+Design a Flash Message that alerts a user of an error or success.
+
+##<i class="fa fa-picture-o"></i> Result
+![Daily UI 11](http://i.imgur.com/eRcrJtt.png)
