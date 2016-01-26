@@ -8,4 +8,4 @@ date:   2016-1-13 13:21:00
 Design a Social Share buttons.
 
 ##<i class="fa fa-picture-o"></i> Result
-![Daily UI 10](http://i.imgur.com/eRcrJtt.png)
+![Daily UI 10](http://i.imgur.com/j7qaPu0.png)
