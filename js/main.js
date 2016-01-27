@@ -1,83 +1,94 @@
-+function($){ 'use strict';
++ function($) {
+  'use strict';
 
   /*
    Simple Lightbox plugin
   */
 
-  $.fn.simpleGal = function(options){
+  $.fn.simpleGal = function(options) {
 
     var defaults = {
-      background : '#FFFFFF',
-      opacity : '1'
+      background: '#FFFFFF'
     };
 
     //plugin object
     //recieves selected item as param
     var plugin = {
-        mainClass : "simple-gal-bg",
-        container : null,
-        $lightbox : null,
-        image : null,
+      mainClass: "simple-gal-bg",
+      helperClass: "simple-gal-slide-in",
+      container: null,
+      $close: null,
+      $lightbox: null,
+      $image: null,
 
-        init : function(item){
+      init: function(item) {
 
-          var html = '<div class="'+ plugin.mainClass + '">';
-          html += '<a href="#" class="simple-gal-close">&#10006;</a>';
-          html += '</div>';
+        var html = '<div class="' + plugin.mainClass + '" style="background-color: ' + defaults.background + '">';
+        html += '<a href="#" class="simple-gal-close">&#10006;</a>';
+        html += '</div>';
 
-          plugin.container = item;
+        plugin.container = item;
 
-          $('body').append(html);
+        $('body').append(html);
 
-          plugin.$lightbox = $('.simple-gal-bg');
-          plugin.bindEvents();
-        },
+        plugin.$lightbox = $('.simple-gal-bg');
+        plugin.$close = $('.simple-gal-close');
+        plugin.bindEvents();
+      },
 
-        loadImage : function(){
+      loadImage: function() {
 
-          plugin.$lightbox.addClass('simple-gal-slide-in');
+        plugin.$lightbox.addClass('simple-gal-slide-in');
 
-          var img = $('<img src="' + plugin.container.find('img').attr('src') + '">');
-
-          $(img).load(function(){
-            plugin.$lightbox.append(img);
-            img.addClass('materialize');
-          });
-        },
-
-        bindEvents : function(){
-
-          $(plugin.container).on('click', function(){
-              plugin.loadImage();
-          });
-
-          plugin.$lightbox.on('click', function(event){
-            if(this === event.target){
-              plugin.close();
-            }
-          });
-
-          $(plugin.lightbox).on('click', 'simple-gal-close', function(){
-            plugin.close();
-            return false;
-          });
-
-        },
-
-        close : function(){
-          $(plugin.lightbox).addClass('dematerialize');
-          $('body').removeClass('');
+        //check if there is an image to prevent displaying more than one image
+        if(plugin.$lightbox.find('img')){
+          plugin.$lightbox.find('img').remove();
         }
-    }
+
+        var img = $('<img src="' + plugin.container.find('img').attr('src') + '">');
+
+        plugin.$image = $(img);
+
+        plugin.$image.load(function() {
+          plugin.$lightbox.append(img);
+          img.addClass('materialize');
+        });
+      },
+
+      bindEvents: function() {
+
+        $(plugin.container).on('click', function(e) {
+          e.preventDefault();
+          plugin.loadImage();
+        });
+
+        plugin.$lightbox.on('click', function(event) {
+          if (this === event.target) {
+            plugin.close();
+          }
+        });
+
+        plugin.$close.on('click', function() {
+          plugin.close();
+          return false;
+        });
+
+      },
+
+      close: function() {
+        $(plugin.$lightbox).removeClass(plugin.helperClass);
+
+      }
+    };
 
     var opts = $.extend(defaults, options);
 
     plugin.init(this);
 
-  }
+  };
 
 }(jQuery);
 
-$(function(){
+$(function() {
   $('.img-zoom-container').simpleGal();
 });
