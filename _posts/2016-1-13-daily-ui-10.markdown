@@ -7,5 +7,7 @@ date:   2016-1-13 13:21:00
 
 Design a Social Share buttons.
 
-##<i class="fa fa-picture-o"></i> Result
-![Daily UI 10](http://i.imgur.com/j7qaPu0.png)
+<div class="simple-gal-container">
+<h2><i class="fa fa-picture-o"></i> Result</h2>
+<img src="http://i.imgur.com/j7qaPu0.png" alt="Daily UI 10">
+</div>

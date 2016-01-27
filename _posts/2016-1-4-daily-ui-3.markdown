@@ -8,5 +8,7 @@ date:   2016-1-4 13:21:00
 
 Landing Page (above the fold)
 
-##<i class="fa fa-picture-o"></i> Result
-![Daily UI 3](http://i.imgur.com/fgAYG0E.png)
+<div class="simple-gal-container">
+<h2><i class="fa fa-picture-o"></i> Result</h2>
+<img src="http://i.imgur.com/fgAYG0E.png" alt="Daily UI 3">
+</div>

@@ -7,5 +7,7 @@ date:   2016-1-12 13:21:00
 
 Design a Music Player.
 
-##<i class="fa fa-picture-o"></i> Result
-![Daily UI 9](http://i.imgur.com/wGZc5Tj.jpg)
+<div class="simple-gal-container">
+<h2><i class="fa fa-picture-o"></i> Result</h2>
+<img src="http://i.imgur.com/wGZc5Tj.jpg" alt="Daily UI 9">
+</div>

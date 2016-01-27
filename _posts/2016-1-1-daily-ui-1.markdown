@@ -8,7 +8,7 @@ date:   2016-1-1 13:21:00
 
 Design a sign up page, modal, form, app screen, etc. (It's up to you!) Don't forget to share on Dribbble and/or Twitter when you're done.
 
-<div class="img-zoom-container">
+<div class="simple-gal-container">
 <h2><i class="fa fa-picture-o"></i> Result</h2>
 <img src="http://i.imgur.com/eks3KRT.png" alt="Daily UI 1">
 </div>

@@ -90,5 +90,5 @@
 }(jQuery);
 
 $(function() {
-  $('.img-zoom-container').simpleGal();
+  $('.simple-gal-container').simpleGal();
 });
