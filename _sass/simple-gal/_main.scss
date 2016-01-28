@@ -1,8 +1,11 @@
 
 .simple-gal-container{
-  img{
-    cursor: zoom-in;
+  @media all and (min-width: $mobile){
+    img{
+      cursor: zoom-in;
+    }
   }
+
 }
 
 .simple-gal-bg{

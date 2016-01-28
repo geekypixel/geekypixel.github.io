@@ -90,5 +90,5 @@
 }(jQuery);
 
 $(function() {
-  $('.simple-gal-container').simpleGal();
+    if($( document ).width() > 560) $('.simple-gal-container').simpleGal();
 });
