@@ -8,7 +8,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-pencil"></i> {{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="post-meta">{% if post.author %} <i class="fa fa-user"></i> {{ post.author }}{% endif %} | <i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       </li>
