@@ -11,5 +11,19 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+<div class="flex space-between">
+  {% if page.previous.url %}
+  <p class="text-left">
+    <a href="{{ page.previous.url }}" title="{{page.previous.title}}" alt="{{page.previous.title}}"> <i class="fa fa-hand-o-left"></i> Previous Post</a>
+  </p>
+
+  {% endif %}
+
+  {% if page.next %}
+  <p class="text-right next-link">
+    <a href="{{ page.next.url }}" title="{{page.next.title}}" alt="{{page.next.title}}">Next Post <i class="fa fa-hand-o-right"></i>  </a>
+  </p>
+  {% endif %}
+</div>
 
 </div>
