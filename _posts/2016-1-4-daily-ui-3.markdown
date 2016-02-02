@@ -10,5 +10,5 @@ Landing Page (above the fold)
 
 <div class="simple-gal-container">
 <h2><i class="fa fa-picture-o"></i> Result</h2>
-<img src="http://i.imgur.com/fgAYG0E.png" alt="Daily UI 3">
+<img src="http://i.imgur.com/IzMJovN.png" alt="Daily UI 3">
 </div>
