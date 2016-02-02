@@ -3,7 +3,7 @@ title:  "Daily UI #2: CC Checkout"
 date:   2016-1-2 13:21:00
 ---
 
-##<i class="fa fa-pencil-square-o"></i> Task
+## <i class="fa fa-pencil-square-o"></i> Task
 
 
 Create a credit card checkout <i class="fa fa-credit-card"></i>
@@ -13,5 +13,5 @@ add a credit card as a payment option.
 
 <div class="simple-gal-container">
 <h2><i class="fa fa-picture-o"></i> Result</h2>
-<img src="http://i.imgur.com/DAVdJtn.png" alt="Daily UI 2">
+<img src="http://i.imgur.com/oRGDIie.png" alt="Daily UI 2">
 </div>
