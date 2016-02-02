@@ -3,7 +3,7 @@ title:  "Daily UI #5: App Icon"
 date:   2016-1-6 13:21:00
 ---
 
-##<i class="fa fa-pencil-square-o"></i> Task
+## <i class="fa fa-pencil-square-o"></i> Task
 
 Design a app icon.
 

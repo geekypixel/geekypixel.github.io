@@ -3,7 +3,7 @@ title:  "Daily UI #9: Music Player"
 date:   2016-1-12 13:21:00
 ---
 
-##<i class="fa fa-pencil-square-o"></i> Task
+## <i class="fa fa-pencil-square-o"></i> Task
 
 Design a Music Player.
 

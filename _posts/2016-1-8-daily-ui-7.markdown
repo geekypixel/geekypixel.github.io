@@ -3,7 +3,7 @@ title:  "Daily UI #7: Settings"
 date:   2016-1-8 13:21:00
 ---
 
-##<i class="fa fa-pencil-square-o"></i> Task
+## <i class="fa fa-pencil-square-o"></i> Task
 
 Design a Settings page.
 

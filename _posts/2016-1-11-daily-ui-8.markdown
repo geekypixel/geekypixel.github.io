@@ -3,7 +3,7 @@ title:  "Daily UI #8: 404 Page"
 date:   2016-1-11 13:21:00
 ---
 
-##<i class="fa fa-pencil-square-o"></i> Task
+## <i class="fa fa-pencil-square-o"></i> Task
 
 Design a 404 Page.
 
