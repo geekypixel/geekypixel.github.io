@@ -1,0 +1,16 @@
+---
+title:  "Daily UI #15: On/Off Switch"
+date:   2016-1-20 13:21:00
+---
+
+## <i class="fa fa-pencil-square-o"></i> Task
+
+Design a On/Off Switch
+
+<div class="simple-gal-container">
+<h2><i class="fa fa-picture-o"></i> Result</h2>
+
+<p data-height="500" data-theme-id="22231" data-slug-hash="obEyEZ" data-default-tab="result" data-user="arturoalviar" class='codepen'>See the Pen <a href='http://codepen.io/arturoalviar/pen/obEyEZ/'>On Off switch</a> by Arturo (<a href='http://codepen.io/arturoalviar'>@arturoalviar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+</div>
