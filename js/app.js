@@ -1579,6 +1579,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _parseInt = __webpack_require__(27);
+
+var _parseInt2 = _interopRequireDefault(_parseInt);
+
 var _from = __webpack_require__(6);
 
 var _from2 = _interopRequireDefault(_from);
@@ -1594,7 +1598,7 @@ var RevealMe = function () {
   var Defaults = {
     active: 'is-revealed',
     class: 'js-reveal-me',
-    offsetRatio: .3,
+    offsetRatio: .4,
     selector: '.js-reveal-me',
     stagger: 'js-reveal-me-stagger'
   };
@@ -1625,7 +1629,8 @@ var RevealMe = function () {
 
     RevealMe.prototype.getItemTop = function getItemTop(element) {
       var itemRect = element.getBoundingClientRect();
-      var top = Math.floor(itemRect.top - transformValue);
+      var paddingTop = (0, _parseInt2.default)(window.getComputedStyle(element).paddingTop);
+      var top = Math.floor(itemRect.top + paddingTop - transformValue);
       return top;
     };
 
